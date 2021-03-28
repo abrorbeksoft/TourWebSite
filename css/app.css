@@ -153,6 +153,19 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(-1px); }
 
+.feature-box {
+  padding: 2.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: all 0.24s; }
+  .feature-box__icon {
+    font-size: 5rem; }
+  .feature-box:hover {
+    transform: translateY(-15px) scale(1.05); }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.643), rgba(40, 180, 133, 0.698)), url("../../img/hero.jpg");
@@ -177,6 +190,14 @@ body {
   background-color: #f7f7f7;
   margin-top: -20vh;
   padding: 20rem 0; }
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.643), rgba(40, 180, 133, 0.698)), url("../../img/nat-4.jpg");
+  background-size: cover;
+  transform: skewY(-6deg); }
+  .section-features > * {
+    transform: skewY(6deg); }
 
 .row {
   max-width: 124rem;
